@@ -40,16 +40,18 @@ h1, h2 {
 
 .main {
 	float: left;
-	width: 50%;
+	width: 380px;
 	border-style: solid;
 	border-color: #E2E2E2;
 	border-width: 1px;
 	background-color: white;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
 	margin-left: 50px;
 }
 
 .connect {
+	position: absolute;
+	left: 480px;
 	float: left;
 	padding: 0px 20px 20px 20px;
 	width: 176px;
@@ -66,6 +68,7 @@ h1, h2 {
 }
 
 footer {
+	overflow: auto;
 	font-size: .7em;
 	float: left;
 	width: 100%;
